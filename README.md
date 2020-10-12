@@ -1,6 +1,13 @@
 # Test Pack Template
 
-Test pack that provides integration and smoke tests. 
+Test pack Template that provides integration and smoke tests. 
+
+### How to run project
+
+use these commands below:
+
+* Run Smoke Test: use `set ENV=dev && gradlew clean test --tests "com.ak.project.smoketest.*"` to clean and run tests
+* Run Integration Test: use `set ENV=dev && gradlew clean test --tests "com.ak.project.integrationtest.*"` to clean and run tests
 
 ## Pre-requisites / Tech
 
@@ -10,4 +17,3 @@ Test pack that provides integration and smoke tests.
 * Spring Boot
 * Lombok
 * Spock Mock
-
