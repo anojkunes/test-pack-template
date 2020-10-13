@@ -6,8 +6,8 @@ Test pack Template that provides integration and smoke tests.
 
 use these commands below:
 
-* Run Smoke Test: use `set ENV=dev && gradlew clean test --tests "com.ak.project.smoketest.*"` to clean and run tests
-* Run Integration Test: use `set ENV=dev && gradlew clean test --tests "com.ak.project.integrationtest.*"` to clean and run tests
+* Run Smoke Test: use `set ENV={{env}}&&gradlew clean test --tests "com.ak.project.smoketest.*"` to clean and run tests
+* Run Integration Test: use `set ENV={{env}}&&gradlew clean test --tests "com.ak.project.integrationtest.*"` to clean and run tests
 
 ## Pre-requisites / Tech
 
